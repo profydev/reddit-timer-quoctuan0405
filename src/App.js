@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import 'normalize.css';
-import './App.css';
+import './GlobalStyle.css';
 
 function App() {
   return (
