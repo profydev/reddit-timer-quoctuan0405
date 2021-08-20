@@ -9,6 +9,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={() => <>/ route</>} />
         <Route exact path="/search" component={() => <>/search route</>} />
+        <Route>404 - Not found</Route>
       </Switch>
     </BrowserRouter>
   );
