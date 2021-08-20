@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import 'normalize.css';
-import './App.css';
+import './GlobalStyle.css';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={() => <>/ route</>} />
         <Route exact path="/search" component={() => <>/search route</>} />
+        <Route>404 - Not found</Route>
       </Switch>
     </BrowserRouter>
   );
