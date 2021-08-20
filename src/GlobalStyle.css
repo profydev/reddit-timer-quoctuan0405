@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /* Bitter Regular */
 @font-face {
     font-family: 'Bitter';
