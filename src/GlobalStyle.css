@@ -2,7 +2,7 @@
     font-family: 'Bitter';
     font-style: normal;
     font-weight: normal;
-    src: local('Bitter'), url('./fonts/Bitter-Bold.woff') format('woff');
+    src: local('Bitter'), url('./fonts/Bitter-Regular.woff') format('woff');
 }
     
 @font-face {
